@@ -2,7 +2,7 @@
 
 Smart Document Insights is an advanced, production-ready Retrieval-Augmented Generation (RAG) application built for the **Smart India Hackathon (SIH)** use cases. It allows users to upload complex documents, extract structural text seamlessly, perform high-speed semantic searches via a vector database, and extract highly specific policy metadata using the Gemini API.
 
-##  Key Features (SIH-Level Workflow)
+##  Key Features 
 * ** Instant Semantics (Session Caching):** Remembers document status in memory via Streamlit Session State. Submitting a question skips the ingestion/embedding pipeline entirely for immediate execution.
 * ** Context-Insulated Q&A:** Answers user queries strictly based on the extracted document bounds to eliminate LLM hallucinations.
 * ** 10-Point Policy Summarizer:** Generates an executive numbered analytical summary of core regulations instantly.
